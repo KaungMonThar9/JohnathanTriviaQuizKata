@@ -97,6 +97,7 @@ h1 {
 
 .quiz-button {
     margin-top: 10px;
+    margin-bottom: 80px;
     width: 200px;
     height: 50px;
     background: linear-gradient(to right, #5b87e5, #36d0dc);
