@@ -87,7 +87,7 @@
 @media (max-width: 768px) {
     .input-field,
     .dropdown-button {
-        width: 100%;
+        width: 81vw;
     }
 
 }
