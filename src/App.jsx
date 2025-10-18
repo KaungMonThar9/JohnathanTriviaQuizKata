@@ -21,7 +21,7 @@ const App = () => {
           alignItems: 'end'
         }}>
           <div style={{ color: '#666', fontSize: '10px', margin: '0', padding: '0' }}>
-            <p style={{ margin: '0', padding: '0' }}>Copyright © 2025 Johnathan Thar TakeHome Kata</p>
+            <p style={{ margin: '0', padding: '0' }}>Copyright © 2025 Johnathan Thar</p>
           </div>
         </div>
       </footer>
