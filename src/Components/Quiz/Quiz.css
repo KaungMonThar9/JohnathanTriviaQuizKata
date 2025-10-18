@@ -152,7 +152,26 @@ h1 {
     border-color: #FF4A4A;
 }
 
-/* smaller devices */
+/* for phones */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .container .table {
+        max-height: 200px;
+    }
+    
+    .quiz-button {
+        width: 180px;
+        height: 35px;
+        margin-bottom: 4px;
+    }
+}
+
+/* smaller ipads/devices */
 @media (max-width: 1366px) {
     .container {
         width: 85%;

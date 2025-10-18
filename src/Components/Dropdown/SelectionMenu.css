@@ -81,3 +81,14 @@
     background: #0dcaf0 !important;
     color: white !important;
 }
+
+
+/* for phones */
+@media (max-width: 768px) {
+    .input-field,
+    .dropdown-button {
+        width: 81%;
+        padding: 9px;
+    }
+
+}
