@@ -8,7 +8,7 @@ const App = () => {
     <>
       <ToastContainer position='top-center' autoClose={3000} />
       <Quiz />
-      <footer className='navbar bottom' style={{
+      <footer className='navbar fixed-bottom' style={{
         textAlign: 'left',
         marginTop: '40px',
         backgroundColor: '#f0f2f5',

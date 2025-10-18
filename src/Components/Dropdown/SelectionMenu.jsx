@@ -13,6 +13,7 @@ export const SelectionMenu = ({ onSubmit }) => {
   const [questDiff, setQuestDiff] = useState('');
   const [questType, setQuestType] = useState('');
   const [timeLimit, setTimeLimit] = useState(0);
+  const invalidChars = ['-', 'e', 'E', '+', '.'];
 
   useEffect(() => {
     Axios.get('https://opentdb.com/api_category.php')
@@ -44,6 +45,14 @@ export const SelectionMenu = ({ onSubmit }) => {
     }
   };
 
+  const handleInvalidChars = (event) => {
+    if (invalidChars.includes(event.key)) {
+      event.preventDefault();
+      toast.error('Invalid character! Please only enter numbers!');
+      return;
+    }
+  };
+
   return (
     <div className='selectionMenu'>
       <input 
@@ -53,6 +62,7 @@ export const SelectionMenu = ({ onSubmit }) => {
         max='50'
         placeholder='Number of Questions: 1-50' 
         onChange={handleQuestAmtChange}
+        onKeyDown={handleInvalidChars}
       />
       <DropDownButton 
         title='Categories' 
@@ -76,6 +86,7 @@ export const SelectionMenu = ({ onSubmit }) => {
         max='60'
         placeholder='Time limit(in minutes)' 
         onChange={(event) => handleTimeLimitChange(event)}
+        onKeyDown={handleInvalidChars}
       />
       <SubmitButton 
         questAmt={questAmt} 
