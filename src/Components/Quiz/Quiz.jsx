@@ -147,28 +147,30 @@ export const Quiz = () => {
           ) : result ? (
             <>
               <h2 id='finalResult'> Final Score: {score} out of {quizData.length}</h2>
-              <table className='table'>
-                <thead>
-                  <tr>
-                    <th scope='col'>#</th>
-                    <th scope='col'>Question</th>
-                    <th scope='col'>Your Answer</th>
-                    <th scope='col'>Correct Answer</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {quizData.map((question, index) => {
-                    const isCorrect = question.correct_answer === userAnswers[index];
-                  return (
-                    <tr key={index} className={isCorrect ? 'table-success' : 'table-danger'}>
-                      <th scope='row'>{index + 1}</th>
-                      <td dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(question.question)}}></td>
-                      <td dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(userAnswers[index] || 'Not answered')}}></td>
-                      <td dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(question.correct_answer)}}></td>
+              <div style={{maxHeight: '40vh', overflowY: 'auto'}}>
+                <table className='table'>
+                  <thead>
+                    <tr>
+                      <th scope='col'>#</th>
+                      <th scope='col'>Question</th>
+                      <th scope='col'>Your Answer</th>
+                      <th scope='col'>Correct Answer</th>
                     </tr>
-                  )})}
-                </tbody>
-              </table>
+                  </thead>
+                  <tbody>
+                    {quizData.map((question, index) => {
+                      const isCorrect = question.correct_answer === userAnswers[index];
+                    return (
+                      <tr key={index} className={isCorrect ? 'table-success' : 'table-danger'}>
+                        <th scope='row'>{index + 1}</th>
+                        <td dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(question.question)}}></td>
+                        <td dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(userAnswers[index] || 'Not answered')}}></td>
+                        <td dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(question.correct_answer)}}></td>
+                      </tr>
+                    )})}
+                  </tbody>
+                </table>
+              </div>
                 <button className='quiz-button' onClick={reset}>Reset</button>
             </>
           ) : (
