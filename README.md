@@ -2,7 +2,7 @@
 
 **Overview**
 
-An interactive trivia game built with React that utilizes the Open Trivia Database (https://opentdb.com/api_config.php) to query for questions and answers.
+An interactive trivia website built with React that utilizes the Open Trivia Database (https://opentdb.com/api_config.php) to query for questions and answers.
 Users can customize the quiz by setting the number of questions, category, difficulty-level, question type and an optional timer.
 After completing the quiz, the user will be able to see a detailed overview of their results and are able to start another quiz.
 
