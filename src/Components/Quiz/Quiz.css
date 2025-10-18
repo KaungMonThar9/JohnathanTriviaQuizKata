@@ -100,7 +100,6 @@ h1 {
 
 .quiz-button {
     margin-top: 9vh;
-    margin-bottom: 5vh;
     width: 200px;
     height: 50px;
     background: linear-gradient(to right, #5b87e5, #36d0dc);
@@ -153,7 +152,7 @@ h1 {
     border-color: #FF4A4A;
 }
 
-/* smaller laptops */
+/* smaller devices */
 @media (max-width: 1366px) {
     .container {
         width: 85%;
@@ -168,11 +167,11 @@ h1 {
     .quiz-button {
         width: 180px;
         height: 45px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
 }
 
-/* larger laptops */
+/* normal laptops */
 @media (min-width: 1367px) and (max-width: 1920px) {
     .container {
         width: 80%;
@@ -187,7 +186,7 @@ h1 {
     .quiz-button {
         width: 200px;
         height: 50px;
-        margin-bottom: 30px;
+        margin-bottom: 5px;
     }
 }
 
@@ -206,6 +205,6 @@ h1 {
     .quiz-button {
         width: 220px;
         height: 55px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 }
