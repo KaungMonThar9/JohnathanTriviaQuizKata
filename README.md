@@ -1,16 +1,56 @@
-# React + Vite
+<h1 align="center">Trivia Quiz</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Overview**
 
-Currently, two official plugins are available:
+An interactive trivia game built with React that utilizes the Open Trivia Database (https://opentdb.com/api_config.php) to query for questions and answers.
+Users can customize the quiz by setting the number of questions, category, difficulty-level, question type and an optional timer.
+After completing the quiz, the user will be able to see a detailed overview of their results and are able to start another quiz.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Customizable and Dynamic Settings**
+- Select from a variety of categories, from politics to entertainment
+- Choose the preferred difficulty level (Easy, Medium, Hard)
+- Choose preferred question type (multiple choice or true/false)
+- Select number of questions from 1-50
 
-## React Compiler
+**Timer Settings**
+- Optional timer with customizable duration (current limit is set to 1 hour)
+- Aesthetically pleasing countdown display
+- Autosubmits when timer reaches 0
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Polished UI/UX**
+- Gradient backgrounds, box shadows, smooth animations and transitions
+- Loading progress bar at the bottom for extra visual appeal
+- Hover effects, cursor effects all included
+- DOMPurify Sanitization and dangerouslySetInnerHTML utilized for safe rendering and proper formatting
 
-## Expanding the ESLint configuration
+**Detailed Results and Score Tracking**
+- Score is tracked and stored and displayed on results page
+- User answers and correct answers and questions all displayed in a table
+- Css styling utilized to differentiate the correct and incorrect answers (green for correct, red for incorrect)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  
+<img width="1915" height="982" alt="image" src="https://github.com/user-attachments/assets/05b66041-803b-4db7-bcdf-d0f5047ee976" />
+
+<img width="1919" height="987" alt="image" src="https://github.com/user-attachments/assets/4f9d4de8-64bd-446e-aa77-986044c92bdd" />
+
+<img width="1919" height="990" alt="image" src="https://github.com/user-attachments/assets/b0d4fe0e-e4fd-4198-b1cd-192a560960c0" />
+
+## Application Set Up
+- git clone https://github.com/KaungMonThar9/JohnathanTakeHomeKata.git
+- cd JohnathanTakeHomeKata
+- npm run dev (development server)
+  
+## Tools Utilized
+- React
+- Vite
+- Bootstrap 5
+- Axios
+- DOMPurify
+- React Toastify
+
+
+
+
+
+
+
