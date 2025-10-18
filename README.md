@@ -31,9 +31,11 @@ After completing the quiz, the user will be able to see a detailed overview of t
   
 <img width="1915" height="982" alt="image" src="https://github.com/user-attachments/assets/05b66041-803b-4db7-bcdf-d0f5047ee976" />
 
-<img width="1919" height="987" alt="image" src="https://github.com/user-attachments/assets/4f9d4de8-64bd-446e-aa77-986044c92bdd" />
+<img width="1919" height="991" alt="image" src="https://github.com/user-attachments/assets/f74da7bf-708e-4137-b6d1-6b3f063503a5" />
 
-<img width="1919" height="990" alt="image" src="https://github.com/user-attachments/assets/b0d4fe0e-e4fd-4198-b1cd-192a560960c0" />
+<img width="1917" height="991" alt="image" src="https://github.com/user-attachments/assets/20e8c19d-21f1-459e-8318-aa7e2dcfa635" />
+
+<img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/39e40c7f-937d-4321-b5ca-a3df4dc78764" />
 
 ## Application Set Up
 - git clone https://github.com/KaungMonThar9/JohnathanTakeHomeKata.git
