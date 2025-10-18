@@ -1,0 +1,150 @@
+.container {
+    background: linear-gradient(145deg, #ffffff, #ede7ff);    
+    border: 2px solid #6a5acd;
+    border-radius: 18px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 25px 30px;
+    opacity: 0.81;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+h1 {
+    text-align: center;
+    background: linear-gradient(#36d0dc, #5b87e5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1.1;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    padding: 2px;
+}
+
+.timer-display {
+    position: absolute;
+    top: 32px;
+    right: 20px;
+    padding: 8px 15px;
+    background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+    border-radius: 20px;
+}
+
+.timer-text {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.container hr {
+    height: 2px;
+    border: none;
+    background: #707070;
+}
+
+.container h2 {
+    font-size: 20px;
+    font-weight: 500;
+    min-height: 60px;
+    display: flex;
+    align-items: flex-start;
+    padding: 5px 0;
+    transition: all 0.2s ease;
+}
+
+.container.quiz-active .quiz-options {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .quiz-options ul {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.container .quiz-options ul li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    min-height: 45px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.selected-ans {
+    background: linear-gradient(to right, #36d0dc, #5b87e5);
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.quiz-button {
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(to right, #5b87e5, #36d0dc);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    align-self: center;
+    transition: all 0.3s ease;
+}
+
+.quiz-button:hover {
+    background: linear-gradient(to right, #36d0dc, #5b87e5);
+}
+
+.quiz-button:active {
+    transform: translateY(1px);
+}
+
+.quiz-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.container .index {
+    margin: auto;
+    font-size: 18px;
+}
+
+#finalResult {
+    align-self: center;
+    margin: 0;
+    padding: 0;
+    min-height: 27px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.table-success {
+    background: #dffff2;
+    border-color: #00d397;
+}
+
+.table-danger {
+    background: #FFEBEB;
+    border-color: #FF4A4A;
+}

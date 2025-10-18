@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url('/background.jpg');
+  background-color: #8CB7E8;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'poppins';
+  height:auto;
+}
+
+
+.arrowButton{
+    margin: auto;
+    width: 250px;
+    height: 65px;
+    background: #553f9a;
+    color:#fff;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}

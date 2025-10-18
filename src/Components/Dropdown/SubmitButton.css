@@ -1,0 +1,20 @@
+.submit-button {
+    width: 250px;
+    height: 65px;
+    background: linear-gradient(to right, #5b87e5, #36d0dc);
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+    background: linear-gradient(to right, #36d0dc, #5b87e5);
+}
+
+.submit-button:active {
+    transform: translateY(1px);
+}
