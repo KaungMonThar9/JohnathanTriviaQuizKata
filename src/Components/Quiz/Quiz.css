@@ -84,7 +84,7 @@ h1 {
     justify-content: left;
     min-height: 45px;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 2vh;
     border: 1px solid #686868;
     border-radius: 8px;
     font-size: 16px;
@@ -99,7 +99,7 @@ h1 {
 }
 
 .quiz-button {
-    margin-top: 10px;
+    margin-top: 9vh;
     margin-bottom: 5vh;
     width: 200px;
     height: 50px;
@@ -151,4 +151,61 @@ h1 {
 .table-danger {
     background: #FFEBEB;
     border-color: #FF4A4A;
+}
+
+/* smaller laptops */
+@media (max-width: 1366px) {
+    .container {
+        width: 85%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    .container .table {
+        max-height: 300px;
+    }
+    
+    .quiz-button {
+        width: 180px;
+        height: 45px;
+        margin-bottom: 20px;
+    }
+}
+
+/* larger laptops */
+@media (min-width: 1367px) and (max-width: 1920px) {
+    .container {
+        width: 80%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .container .table {
+        max-height: 400px;
+    }
+    
+    .quiz-button {
+        width: 200px;
+        height: 50px;
+        margin-bottom: 30px;
+    }
+}
+
+/* larger desktops */
+@media (min-width: 1921px) {
+    .container {
+        width: 70%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    .container .table {
+        max-height: 500px;
+    }
+    
+    .quiz-button {
+        width: 220px;
+        height: 55px;
+        margin-bottom: 40px;
+    }
 }
