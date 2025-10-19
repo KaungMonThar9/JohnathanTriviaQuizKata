@@ -40,6 +40,7 @@ After completing the quiz, the user will be able to see a detailed overview of t
 ## Application Set Up
 - git clone https://github.com/KaungMonThar9/JohnathanTriviaQuizKata.git
 - cd JohnathanTriviaQuizKata
+- npm install (install dependencies)
 - npm run dev (development server)
   
 ## Tools Utilized
