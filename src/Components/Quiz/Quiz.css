@@ -168,6 +168,12 @@ h1 {
         width: 180px;
         height: 35px;
         margin-bottom: 4px;
+        margin-top: 5vh;
+    }
+
+    .timer-display{
+        top: 60px;
+        padding: 5px 15px;
     }
 }
 
@@ -186,7 +192,8 @@ h1 {
     .quiz-button {
         width: 180px;
         height: 45px;
-        margin-bottom: 9px;
+        margin-top: 7vh;
+        margin-bottom: 4px;
     }
 }
 
@@ -209,7 +216,7 @@ h1 {
     }
 }
 
-/* larger desktops */
+/* larger desktops/ higher pixel devices */
 @media (min-width: 1921px) {
     .container {
         width: 70%;
@@ -224,6 +231,7 @@ h1 {
     .quiz-button {
         width: 220px;
         height: 55px;
+        margin-top: 7vh;
         margin-bottom: 20px;
     }
 }

@@ -27,7 +27,8 @@ export const SelectionMenu = ({ onSubmit }) => {
 
   const handleQuestAmtChange = (event) => {
     const value = parseInt(event.target.value);
-    if (value > 50){
+    if (value > 50) {
+      event.target.value = 50;
       setQuestAmt(50);
       toast.error('Number of questions cannot be more than 50');
     } else {
@@ -38,6 +39,7 @@ export const SelectionMenu = ({ onSubmit }) => {
   const handleTimeLimitChange = (event) => {
     const value = parseInt(event.target.value);
     if (value > 60) {
+      event.target.value = 60;
       setTimeLimit(60);
       toast.error('Time limit cannot be more than 60 minutes');
     } else {

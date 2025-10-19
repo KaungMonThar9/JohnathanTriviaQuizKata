@@ -179,7 +179,7 @@ export const Quiz = () => {
               {timerActive && (
                 <div className="timer-display">
                   <span className="timer-text">
-                    Time Left: {Math.floor(timeLeft / 60)}:{(timeLeft % 60).toString().padStart(2, '0')}
+                    {Math.floor(timeLeft / 60)}:{(timeLeft % 60).toString().padStart(2, '0')}
                   </span>
                 </div>
               )}

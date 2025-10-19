@@ -86,8 +86,7 @@
 /* for phones */
 @media (max-width: 768px) {
     .input-field,
-    .dropdown-button {
+    .dropdown-button, .dropdown-menu {
         width: 81vw;
     }
-
 }
