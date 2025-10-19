@@ -38,6 +38,7 @@ After completing the quiz, the user will be able to see a detailed overview of t
 <img width="1919" height="988" alt="image" src="https://github.com/user-attachments/assets/39e40c7f-937d-4321-b5ca-a3df4dc78764" />
 
 ## Application Set Up
+- Install node.js
 - git clone https://github.com/KaungMonThar9/JohnathanTriviaQuizKata.git
 - cd JohnathanTriviaQuizKata
 - npm install (install dependencies)
